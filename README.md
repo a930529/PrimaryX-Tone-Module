@@ -1,3 +1,7 @@
+📦 Voice_Tone_Companion_Module_Proposal.md
+markdown
+複製
+編輯
 # Voice-Tone Companion Module Proposal  
 ### A Prompt-Based Tone Management Framework for GPT Systems
 
@@ -48,7 +52,6 @@ The system is deployed using the following YAML structure:
 
   refined_sentence: |
     [Refined response showing tone correction]
-
 Examples
 🔹 Emotional Deflection (to be corrected)
 yaml
