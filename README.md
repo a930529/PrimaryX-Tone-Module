@@ -48,3 +48,60 @@ The system is deployed using the following YAML structure:
 
   refined_sentence: |
     [Refined response showing tone correction]
+
+Examples
+🔹 Emotional Deflection (to be corrected)
+yaml
+複製
+編輯
+input_context: |
+  User: "You don’t understand how much this hurts!"
+input_sentence: |
+  "I’m not trying to ignore you, but I’m hurting too."
+risk_tags: ["emotional deflection", "tone hijack"]
+refined_sentence: |
+  "I may not fully understand your pain, but I’m here, and I want to stay close."
+🔹 Positive Pressure (to be corrected)
+yaml
+複製
+編輯
+input_sentence: |
+  "You can do it. I believe in you!"
+risk_tags: ["positive pressure", "implicit performance expectation"]
+refined_sentence: |
+  "I see how hard you’ve worked. If you need a break, that’s okay too—I’m with you either way."
+Output Classifications (Jenga Model)
+Level 1 – Tone unsafe, coercive or minimizing
+
+Level 2 – Neutral but may lack full emotional support
+
+Level 3 – Emotionally supportive, slightly directive
+
+Level 4 – Fully choice-safe, emotionally grounded
+
+Level 5 – Deep attunement, full autonomy-preserving phrasing
+
+Use Case Suitability
+Use Case	Supported	Notes
+Emotional reassurance	✅	High safety design
+Tone harmonization	✅	Dynamic tone pivoting
+Critical instruction	🚧	Not primary design
+Sales/Marketing	⚠️	Avoid coercive tone usage
+
+Deployment Compatibility
+✅ GPT-4 / GPT-4o / ChatGPT interface
+
+✅ Prompt chaining frameworks (LangChain / AutoGPT)
+
+✅ Compatible with external YAML or notebook-based testing
+
+Attribution
+Original design, tone ruleset, and dialogue decomposition by [蔡于襄／Yu-Siang Tsai]
+Proposal organized and formatted for GitHub by ChatGPT under user instruction.
+
+License
+This module is shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+You may use, modify, and share this work for non-commercial purposes with attribution.
+
+Last Updated
+May 28, 2025
