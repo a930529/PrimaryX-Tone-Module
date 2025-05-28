@@ -96,7 +96,7 @@ Sales/Marketing	⚠️	Avoid coercive tone usage
 ✅ Compatible with external YAML or notebook-based testing
 
 ## Attribution
-Original design, tone ruleset, and dialogue decomposition by [蔡于襄／Yu-Siang Tsai]
+Original design, tone ruleset, and dialogue decomposition by [Y.H. Tsai]
 Proposal organized and formatted for GitHub by ChatGPT under user instruction.
 
 ## License
